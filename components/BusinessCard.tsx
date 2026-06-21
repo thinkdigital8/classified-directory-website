@@ -8,6 +8,11 @@ const CATEGORY_GRADIENTS: Record<string, string> = {
   "Healthcare": "from-rose-400 to-pink-500",
   "Health & Fitness": "from-cyan-400 to-blue-500",
   "Pet Services": "from-yellow-400 to-orange-400",
+  "Hotels & Travel": "from-sky-400 to-blue-600",
+  "Education": "from-indigo-400 to-indigo-600",
+  "Automotive": "from-slate-500 to-gray-700",
+  "Shopping & Retail": "from-pink-400 to-rose-500",
+  "Entertainment": "from-red-400 to-orange-500",
 };
 
 const CATEGORY_ICONS: Record<string, string> = {
@@ -17,6 +22,11 @@ const CATEGORY_ICONS: Record<string, string> = {
   "Healthcare": "🏥",
   "Health & Fitness": "💪",
   "Pet Services": "🐾",
+  "Hotels & Travel": "🏨",
+  "Education": "🎓",
+  "Automotive": "🚗",
+  "Shopping & Retail": "🛍️",
+  "Entertainment": "🎵",
 };
 
 function StarRating({ rating }: { rating: number }) {

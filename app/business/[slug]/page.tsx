@@ -31,6 +31,11 @@ const CATEGORY_COLORS: Record<string, string> = {
   "Healthcare": "from-rose-500 to-pink-600",
   "Health & Fitness": "from-cyan-500 to-blue-500",
   "Pet Services": "from-yellow-500 to-orange-400",
+  "Hotels & Travel": "from-sky-500 to-blue-700",
+  "Education": "from-indigo-500 to-indigo-700",
+  "Automotive": "from-slate-600 to-gray-800",
+  "Shopping & Retail": "from-pink-500 to-rose-600",
+  "Entertainment": "from-red-500 to-orange-500",
 };
 
 const CATEGORY_ICONS: Record<string, string> = {
@@ -40,6 +45,11 @@ const CATEGORY_ICONS: Record<string, string> = {
   "Healthcare": "🏥",
   "Health & Fitness": "💪",
   "Pet Services": "🐾",
+  "Hotels & Travel": "🏨",
+  "Education": "🎓",
+  "Automotive": "🚗",
+  "Shopping & Retail": "🛍️",
+  "Entertainment": "🎵",
 };
 
 const dayOrder = ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"];

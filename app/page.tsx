@@ -11,6 +11,11 @@ const CATEGORY_META: Record<string, { icon: string; color: string }> = {
   "Healthcare": { icon: "🏥", color: "bg-rose-500" },
   "Health & Fitness": { icon: "💪", color: "bg-cyan-500" },
   "Pet Services": { icon: "🐾", color: "bg-yellow-500" },
+  "Hotels & Travel": { icon: "🏨", color: "bg-sky-600" },
+  "Education": { icon: "🎓", color: "bg-indigo-600" },
+  "Automotive": { icon: "🚗", color: "bg-slate-600" },
+  "Shopping & Retail": { icon: "🛍️", color: "bg-pink-500" },
+  "Entertainment": { icon: "🎵", color: "bg-red-500" },
 };
 
 export default async function Home({
